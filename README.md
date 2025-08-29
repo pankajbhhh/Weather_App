@@ -1,5 +1,5 @@
 
-Weather Now
+#Weather Now
 
 A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check current weather for any city. Built with React and the Open‑Meteo API (no API key needed).
 
