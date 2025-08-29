@@ -1,21 +1,21 @@
 
-#Weather Now
+# Weather Now
 
 A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check current weather for any city. Built with React and the Open‑Meteo API (no API key needed).
 
-🎯 Project Goals
+🎯  ## Project Goals
 
-🔹 Speed: Show current conditions with minimal clicks.
+🔹 - Speed: Show current conditions with minimal clicks.
 
-🔹 Simplicity: Clean UI with clear data (temp, feels like, wind, humidity, condition).
+🔹 - Simplicity: Clean UI with clear data (temp, feels like, wind, humidity, condition).
 
-🔹 Accuracy: Uses Open‑Meteo (free, reliable, no key).
+🔹 - Accuracy: Uses Open‑Meteo (free, reliable, no key).
 
-🔹 Accessibility: Keyboard‑friendly and screen‑reader friendly.
+🔹 - Accessibility: Keyboard‑friendly and screen‑reader friendly.
 
-🔹 Responsive: Works great on mobile and desktop.
+🔹 - Responsive: Works great on mobile and desktop.
 
-✨ Features
+✨ ## Features
 
 🔹 City search with autosuggest (via Open‑Meteo Geocoding API).
 
