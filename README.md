@@ -3,9 +3,9 @@
 
 A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check current weather for any city. Built with React and the Open‑Meteo API (no API key needed).
 
-🎯  ## Project Goals
+ ## 🎯  Project Goals
 
-🔹 - Speed: Show current conditions with minimal clicks.
+- 🔹  Speed: Show current conditions with minimal clicks.
 
 🔹 - Simplicity: Clean UI with clear data (temp, feels like, wind, humidity, condition).
 
@@ -15,7 +15,7 @@ A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check cu
 
 🔹 - Responsive: Works great on mobile and desktop.
 
-✨ ## Features
+## ✨  Features
 
 🔹 City search with autosuggest (via Open‑Meteo Geocoding API).
 
@@ -29,7 +29,7 @@ A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check cu
 
 🔹 Lightweight: fetch() only; no API key.
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 
 🔹 Frontend: React (recommended with Vite)
 
@@ -42,3 +42,11 @@ A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check cu
 🔹 Icons: WeatherCode → emoji or icon set mapping
 
 💡 You can use Create React App as well; commands differ slightly. Vite is shown below.
+
+## 🏗️ Architecture (Simple Flow)
+
+🔹 SearchBar → calls Geocoding API to resolve name → (lat, lon)
+
+🔹 WeatherService → calls Forecast API with (lat, lon) → returns current fields
+
+🔹 App State → updates UI components (CurrentWeather, Highlights)
