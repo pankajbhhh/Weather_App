@@ -3,6 +3,8 @@
 
 A fast, simple weather app for Jamie (an outdoor enthusiast) to quickly check current weather for any city. Built with React and the Open‑Meteo API (no API key needed).
 
+URL https://weather-app-ooex.vercel.app/
+
  ## 🎯  Project Goals
 
 - Speed: Show current conditions with minimal clicks.
